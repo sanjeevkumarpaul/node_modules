@@ -1,0 +1,106 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "svg-to-png@2.0.1",
+        "scope": null,
+        "escapedName": "svg-to-png",
+        "name": "svg-to-png",
+        "rawSpec": "2.0.1",
+        "spec": "2.0.1",
+        "type": "version"
+      },
+      "/Users/sanjeevpaul/Desktop/Projects/GIT-HUB/BinaryTreeExpressions/Angular2-Seed/angular-seed-master/node_modules/angular2-dependencies-graph"
+    ]
+  ],
+  "_from": "svg-to-png@2.0.1",
+  "_id": "svg-to-png@2.0.1",
+  "_inCache": true,
+  "_location": "/svg-to-png",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "filamentgroup",
+    "email": "thegroup@filamentgroup.com"
+  },
+  "_npmVersion": "2.7.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "svg-to-png@2.0.1",
+    "scope": null,
+    "escapedName": "svg-to-png",
+    "name": "svg-to-png",
+    "rawSpec": "2.0.1",
+    "spec": "2.0.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/angular2-dependencies-graph"
+  ],
+  "_resolved": "https://registry.npmjs.org/svg-to-png/-/svg-to-png-2.0.1.tgz",
+  "_shasum": "5fcd4dc5ea3b5367d58fa9698bff03fbd203a193",
+  "_shrinkwrap": null,
+  "_spec": "svg-to-png@2.0.1",
+  "_where": "/Users/sanjeevpaul/Desktop/Projects/GIT-HUB/BinaryTreeExpressions/Angular2-Seed/angular-seed-master/node_modules/angular2-dependencies-graph",
+  "author": {
+    "name": "Jeffrey Lembeck/Filament Group",
+    "email": "hello@filamentgroup.com",
+    "url": "http://filamentgroup.com"
+  },
+  "bugs": {
+    "url": "https://github.com/filamentgroup/svg-to-png/issues"
+  },
+  "dependencies": {
+    "imagemin": "3.1.0",
+    "phantomjs": "~1.9.13"
+  },
+  "description": "Converts SVGs to PNGs",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-qunit": "~0.3.0",
+    "grunt-contrib-watch": "~0.2.0",
+    "phantom-unit": "0.1.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "5fcd4dc5ea3b5367d58fa9698bff03fbd203a193",
+    "tarball": "https://registry.npmjs.org/svg-to-png/-/svg-to-png-2.0.1.tgz"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "gitHead": "060d5798905074bd4bfecb3c26e4d982a49e1884",
+  "homepage": "https://github.com/filamentgroup/svg-to-png",
+  "keywords": [],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/filamentgroup/svg-to-png/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/svg-to-png",
+  "maintainers": [
+    {
+      "name": "filamentgroup",
+      "email": "thegroup@filamentgroup.com"
+    },
+    {
+      "name": "jlembeck",
+      "email": "jlembeck@gmail.com"
+    }
+  ],
+  "name": "svg-to-png",
+  "optionalDependencies": {
+    "imagemin": "3.1.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filamentgroup/svg-to-png.git"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "version": "2.0.1"
+}

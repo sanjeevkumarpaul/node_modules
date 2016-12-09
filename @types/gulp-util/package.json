@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@types/gulp-util@^3.0.29",
+        "scope": "@types",
+        "escapedName": "@types%2fgulp-util",
+        "name": "@types/gulp-util",
+        "rawSpec": "^3.0.29",
+        "spec": ">=3.0.29 <4.0.0",
+        "type": "range"
+      },
+      "/Users/sanjeevpaul/Desktop/Projects/GIT-HUB/BinaryTreeExpressions/Angular2-Seed/angular-seed-master"
+    ]
+  ],
+  "_from": "@types/gulp-util@>=3.0.29 <4.0.0",
+  "_id": "@types/gulp-util@3.0.29",
+  "_inCache": true,
+  "_location": "/@types/gulp-util",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/gulp-util-3.0.29.tgz_1474306687401_0.5901264487765729"
+  },
+  "_npmUser": {
+    "name": "types",
+    "email": "ts-npm-types@microsoft.com"
+  },
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@types/gulp-util@^3.0.29",
+    "scope": "@types",
+    "escapedName": "@types%2fgulp-util",
+    "name": "@types/gulp-util",
+    "rawSpec": "^3.0.29",
+    "spec": ">=3.0.29 <4.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/gulp-util/-/gulp-util-3.0.29.tgz",
+  "_shasum": "503e635e4bdeb3f922a7a696f6c3de11a1a45341",
+  "_shrinkwrap": null,
+  "_spec": "@types/gulp-util@^3.0.29",
+  "_where": "/Users/sanjeevpaul/Desktop/Projects/GIT-HUB/BinaryTreeExpressions/Angular2-Seed/angular-seed-master",
+  "author": {
+    "name": "jedmao",
+    "email": "https://github.com/jedmao"
+  },
+  "dependencies": {
+    "@types/chalk": "*",
+    "@types/node": "*",
+    "@types/through2": "*",
+    "@types/vinyl": "*"
+  },
+  "description": "TypeScript definitions for gulp-util v3.0.x",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "503e635e4bdeb3f922a7a696f6c3de11a1a45341",
+    "tarball": "https://registry.npmjs.org/@types/gulp-util/-/gulp-util-3.0.29.tgz"
+  },
+  "license": "MIT",
+  "main": "",
+  "maintainers": [
+    {
+      "name": "types",
+      "email": "ryan.cavanaugh@microsoft.com"
+    }
+  ],
+  "name": "@types/gulp-util",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "scripts": {},
+  "typesPublisherContentHash": "5226994532f8c2a90ccc1aba66e34bac83e800538aa40419e6527929ccc1d02d",
+  "typings": "index.d.ts",
+  "version": "3.0.29"
+}

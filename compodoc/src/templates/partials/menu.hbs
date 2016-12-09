@@ -1,0 +1,142 @@
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+
+<nav>
+
+    <ul class="list">
+
+        <li class="title">
+            <a href="./">{{documentationMainName}}</a>
+        </li>
+
+        <li class="divider"></li>
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="./"><span class="fa fa-home"></span>Getting started</a>
+            <ul class="links">
+                {{#if readme}}
+                    <li class="link">
+                        <a href="./" {{#compare name "===" 'index' }} class="active" {{/compare}}><span class="fa fa-file-text-o"></span>README</a>
+                    </li>
+                    <li class="link">
+                        <a {{#compare context "===" 'readme'}} href="./overview.html" {{/compare}}
+                            {{#compare context "===" 'overview'}} href="./" {{/compare}}
+                            {{#compare context "!==" 'overview'}} href="./overview.html" {{/compare}}
+                            {{#compare context "!==" 'readme'}} href="./overview.html" {{/compare}}
+                            {{#compare name "===" 'overview' }} class="active" {{/compare}}>
+                            <span class="fa fa-th"></span>Overview
+                        </a>
+                    </li>
+                {{else}}
+                    <li class="link">
+                        <a href="./" {{#compare name "===" 'overview' }} class="active" {{/compare}}>
+                            <span class="fa fa-th"></span>Overview
+                        </a>
+                    </li>
+                {{/if}}
+            </ul>
+        </li>
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="./modules.html"><span class="fa fa-archive"></span>Modules</a>
+            <ul class="links">
+                {{#each modules}}
+                    <li class="link">
+                        <a href="./modules/{{name}}.html" {{#compare ../name "===" name }} class="active" {{/compare}}>{{ name }}</a>
+                    </li>
+                {{/each}}
+            </ul>
+        </li>
+
+        {{#if components}}
+        <li class="chapter">
+            <div class="simple"><span class="fa fa-cogs"></span>Components</div>
+            <ul class="links">
+                {{#each components}}
+                    <li class="link">
+                        <a href="./components/{{name}}.html" {{#compare ../name "===" name }} class="active" {{/compare}}>{{ name }}</a>
+                    </li>
+                {{/each}}
+            </ul>
+        </li>
+        {{/if}}
+
+        {{#if directives}}
+        <li class="chapter">
+            <div class="simple"><span class="fa fa-code"></span>Directives</div>
+            <ul class="links">
+                {{#each directives}}
+                    <li class="link">
+                        <a href="./directives/{{name}}.html" {{#compare ../name "===" name }} class="active" {{/compare}}>{{ name }}</a>
+                    </li>
+                {{/each}}
+            </ul>
+        </li>
+        {{/if}}
+
+        {{#if classes}}
+        <li class="chapter">
+            <div class="simple"><span class="fa fa-file-code-o"></span>Classes</div>
+            <ul class="links">
+                {{#each classes}}
+                    <li class="link">
+                        <a href="./classes/{{name}}.html" {{#compare ../name "===" name }} class="active" {{/compare}}>{{ name }}</a>
+                    </li>
+                {{/each}}
+            </ul>
+        </li>
+        {{/if}}
+
+        {{#if routes}}
+        <li class="chapter">
+            <a data-type="chapter-link" href="./routes.html"><span class="fa fa-code-fork"></span>Routes</a>
+        </li>
+        {{/if}}
+
+        {{#if injectables}}
+        <li class="chapter">
+            <div class="simple"><span class="fa fa-long-arrow-down"></span>Injectables</div>
+            <ul class="links">
+                {{#each injectables}}
+                    <li class="link">
+                        <a href="./injectables/{{name}}.html" {{#compare ../name "===" name }} class="active" {{/compare}}>{{ name }}</a>
+                    </li>
+                {{/each}}
+            </ul>
+        </li>
+        {{/if}}
+
+        {{#if pipes}}
+        <li class="chapter">
+            <div class="simple"><span class="fa fa-plus"></span>Pipes</div>
+            <ul class="links">
+                {{#each pipes}}
+                    <li class="link">
+                        <a href="./pipes/{{name}}.html" {{#compare ../name "===" name }} class="active" {{/compare}}>{{ name }}</a>
+                    </li>
+                {{/each}}
+            </ul>
+        </li>
+        {{/if}}
+
+        {{#unless hideGenerator}}
+        <li class="divider"></li>
+        <li class="copyright">
+                Documentation generated using <a href="https://compodoc.github.io/compodoc/" target="_blank">
+                    {{#if theme }}
+                        {{#compare theme "indexof" 'readthedocs,vagrant,postman'}}
+                            <img src="./images/compodoc-vectorise-inverted.svg" class="img-responsive">
+                        {{else}}
+                            <img src="./images/compodoc-vectorise.svg" class="img-responsive">
+                        {{/compare}}
+                    {{else}}
+                    <img src="./images/compodoc-vectorise.svg" class="img-responsive">
+                    {{/if}}
+                </a>
+        </li>
+        {{/unless}}
+
+    </ul>
+
+</nav>

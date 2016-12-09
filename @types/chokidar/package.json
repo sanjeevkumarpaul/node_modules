@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@types/chokidar@*",
+        "scope": "@types",
+        "escapedName": "@types%2fchokidar",
+        "name": "@types/chokidar",
+        "rawSpec": "*",
+        "spec": "*",
+        "type": "range"
+      },
+      "/Users/sanjeevpaul/Desktop/Projects/GIT-HUB/BinaryTreeExpressions/Angular2-Seed/angular-seed-master/node_modules/@types/browser-sync"
+    ]
+  ],
+  "_from": "@types/chokidar@*",
+  "_id": "@types/chokidar@1.4.29",
+  "_inCache": true,
+  "_location": "/@types/chokidar",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/chokidar-1.4.29.tgz_1474302478162_0.0672270969953388"
+  },
+  "_npmUser": {
+    "name": "types",
+    "email": "ts-npm-types@microsoft.com"
+  },
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@types/chokidar@*",
+    "scope": "@types",
+    "escapedName": "@types%2fchokidar",
+    "name": "@types/chokidar",
+    "rawSpec": "*",
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/@types/browser-sync"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/chokidar/-/chokidar-1.4.29.tgz",
+  "_shasum": "31efd569930cf6799b20941c86bc6bff7c2e230a",
+  "_shrinkwrap": null,
+  "_spec": "@types/chokidar@*",
+  "_where": "/Users/sanjeevpaul/Desktop/Projects/GIT-HUB/BinaryTreeExpressions/Angular2-Seed/angular-seed-master/node_modules/@types/browser-sync",
+  "author": {
+    "name": "Stefan Steinhart",
+    "email": "https://github.com/reppners/"
+  },
+  "dependencies": {
+    "@types/node": "*"
+  },
+  "description": "TypeScript definitions for chokidar 1.4.3",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "31efd569930cf6799b20941c86bc6bff7c2e230a",
+    "tarball": "https://registry.npmjs.org/@types/chokidar/-/chokidar-1.4.29.tgz"
+  },
+  "license": "MIT",
+  "main": "",
+  "maintainers": [
+    {
+      "name": "types",
+      "email": "ryan.cavanaugh@microsoft.com"
+    }
+  ],
+  "name": "@types/chokidar",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "scripts": {},
+  "typesPublisherContentHash": "9b180f5c071253665131f2360c088639670aa76c16053de49249e720c662da53",
+  "typings": "index.d.ts",
+  "version": "1.4.29"
+}
